@@ -18,7 +18,9 @@ nav {
       font-size: 15px;
       line-height: 140%;
       letter-spacing: 0.02em;
-      color: black;
+      .link{
+        color: black;
+      }
     }
   }
   .navbar-buttons {

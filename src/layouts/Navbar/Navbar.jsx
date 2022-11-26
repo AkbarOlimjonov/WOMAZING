@@ -17,16 +17,16 @@ function Navbar() {
           </div>
           <ul className="navbar-menu">
             <li>
-              <Link to="/">Главная</Link>
+              <Link className="link" to="/">Главная</Link>
             </li>
             <li>
-              <Link to="/shop">Магазин</Link>
+              <Link className="link" to="/shop">Магазин</Link>
             </li>
             <li>
-              <Link to="/about">О бренде</Link>
+              <Link className="link" to="/about">О бренде</Link>
             </li>
             <li>
-              <Link to="/support">Контакты</Link>
+              <Link className="link" to="/support">Контакты</Link>
             </li>
           </ul>
           <div className="navbar-buttons">
